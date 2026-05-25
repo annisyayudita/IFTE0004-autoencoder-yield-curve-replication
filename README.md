@@ -22,10 +22,10 @@ This project replicates the autoencoder yield-curve factor model originally deve
 ## Repository Structure
 
 ```text
-├── Autoencoder_yield_curve.py        # Main replication script
-├── Autoencoder_yield_curve.ipynb     # Jupyter notebook version
-├── USdataYC.csv                      # U.S. Treasury yield curve dataset
-├── requirements.txt                  # Python dependencies
+├── Autoencoder_yield_curve.py        
+├── Autoencoder_yield_curve.ipynb     
+├── USdataYC.csv                      
+├── requirements.txt                
 ├── README.md
 └── yield_curve_outputs/
     ├── fig_eda.png
@@ -196,5 +196,4 @@ This project is an adapted replication. The original paper uses Japanese Governm
 ## References
 
 - Suimon, Y., Sakaji, H., Izumi, K., & Matsushima, H. (2020). Autoencoder-based three-factor model for the yield curve of Japanese Government Bonds and a trading strategy. *Journal of Risk and Financial Management*, 13(4), 82.
-- Nelson, C. R., & Siegel, A. F. (1987). Parsimonious modeling of yield curves. *Journal of Business*, 60(4), 473–489.
 ```
