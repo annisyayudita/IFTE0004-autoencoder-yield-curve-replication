@@ -1,0 +1,3 @@
+Specification,N,Maturities,Short_end,PCA_cum_var,PCA_train_bps,PCA_stress_bps,AE3_train_bps,AE3_stress_bps,Note
+Primary (5 maturities),5,"2Y, 5Y, 7Y, 10Y, 20Y",No,99.97%,2.93,4.15,7.51,19.96,Paper-aligned
+Extended (9 maturities),9,"3M, 6M, 1Y, 2Y, 3Y, 5Y, 7Y, 10Y, 20Y",Yes,99.92%,5.47,7.43,9.11,21.81,Broader U.S. curve incl. short-end
