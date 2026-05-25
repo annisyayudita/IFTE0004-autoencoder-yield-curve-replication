@@ -20,12 +20,12 @@ This project replicates the autoencoder yield-curve factor model originally deve
 ## Repository Structure
 
 ```
-├── Autoencoder_yield_curve.py        # Main replication script (standalone)
-├── Autoencoder_yield_curve.ipynb     # Jupyter notebook version
-├── USdataYC.csv                      # U.S. Treasury yield curve dataset
-├── requirements.txt                  # Python dependencies
+├── Autoencoder_yield_curve.py        
+├── Autoencoder_yield_curve.ipynb     
+├── USdataYC.csv                      
+├── requirements.txt                 
 ├── README.md
-└── outputs/
+└── yield_curve_outputs/
     ├── fig_eda.png
     ├── fig_factor_analysis.png
     ├── fig_reconstruction.png
@@ -59,22 +59,22 @@ This project replicates the autoencoder yield-curve factor model originally deve
 ## Generated Figures
 
 ### Yield Curve Evolution
-![EDA](outputs/fig_eda.png)
+![EDA](yield_curve_outputs/fig_eda.png)
 
 ### Factor Analysis: PCA Loadings & AE Decoder Weights
-![Factor Analysis](outputs/fig_factor_analysis.png)
+![Factor Analysis](yield_curve_outputs/fig_factor_analysis.png)
 
 ### Actual vs Reconstructed Yield Curves
-![Reconstruction](outputs/fig_reconstruction.png)
+![Reconstruction](yield_curve_outputs/fig_reconstruction.png)
 
 ### Cumulative Trading Performance
-![Trading](outputs/fig_trading.png)
+![Trading](yield_curve_outputs/fig_trading.png)
 
 ### AE(3) Reconstruction Residuals
-![Residuals](outputs/fig_residuals.png)
+![Residuals](yield_curve_outputs/fig_residuals.png)
 
 ### Stress-Period Factor Continuity
-![Stress Factors](outputs/fig_stress_factors.png)
+![Stress Factors](yield_curve_outputs/fig_stress_factors.png)
 
 ## Requirements
 
@@ -93,7 +93,7 @@ matplotlib
 python Autoencoder_yield_curve.py
 ```
 
-All figures and tables are saved to the `outputs/` directory. Set `RUN_FULL_TRADING_GRID = True` at the top of the script to evaluate all learning window and horizon combinations.
+All figures and tables are saved to the `yield_curve_outputs/` directory. Set `RUN_FULL_TRADING_GRID = True` at the top of the script to evaluate all learning window and horizon combinations.
 
 **Jupyter notebook:**
 ```bash
@@ -115,3 +115,4 @@ jupyter notebook Autoencoder_yield_curve.ipynb
 - Suimon, Y., Sakaji, H., Izumi, K., & Matsushima, H. (2020). Autoencoder-based three-factor model for the yield curve of Japanese Government Bonds and a trading strategy. *Journal of Risk and Financial Management*, 13(4), 82.
 - Baldi, P. & Hornik, K. (1989). Neural networks and principal component analysis. *Neural Networks*, 2(1), 53–58.
 - Nelson, C.R. & Siegel, A.F. (1987). Parsimonious modeling of yield curves. *Journal of Business*, 60(4), 473–489.
+
